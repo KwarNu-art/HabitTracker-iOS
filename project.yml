@@ -1,0 +1,22 @@
+name: HabitTracker
+options:
+  bundleIdPrefix: com.personal
+  deploymentTarget:
+    iOS: 15.0
+targets:
+  HabitTracker:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: .
+        includes:
+          - ".swift"
+          - "Info.plist"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.personal.habittracker
+        INFOPLIST_FILE: Info.plist
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        ENABLE_BITCODE: NO
