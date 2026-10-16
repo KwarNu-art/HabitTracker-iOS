@@ -1,6 +1,7 @@
 name: HabitTracker
 options:
   bundleIdPrefix: com.personal
+  xcodeVersion: "15.0"
   deploymentTarget:
     iOS: 15.0
 targets:
