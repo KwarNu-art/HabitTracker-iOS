@@ -1,0 +1,20 @@
+    CFBundleExecutable
+    HabitTracker
+    CFBundleIdentifier
+    com.personal.habittracker
+    CFBundleName
+    HabitTracker
+    CFBundleShortVersionString
+    1.0
+    CFBundleVersion
+    1
+    UILaunchScreen
+    
+    UIRequiredDeviceCapabilities
+    
+        armv7
+    
+    UISupportedInterfaceOrientations
+    
+        UIInterfaceOrientationPortrait
+    
