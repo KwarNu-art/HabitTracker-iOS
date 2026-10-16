@@ -1,9 +1,8 @@
 name: HabitTracker
 options:
   bundleIdPrefix: com.personal
-  xcodeVersion: "15.0"
   deploymentTarget:
-    iOS: 15.0
+    iOS: "15.0"
 targets:
   HabitTracker:
     type: application
@@ -13,11 +12,17 @@ targets:
       - path: .
         includes:
           - ".swift"
-          - "Info.plist"
+    info:
+      properties:
+        CFBundleDisplayName: "Habit Tracker"
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.personal.habittracker
-        INFOPLIST_FILE: Info.plist
         TARGETED_DEVICE_FAMILY: "1"
         SWIFT_VERSION: "5.0"
         ENABLE_BITCODE: NO
